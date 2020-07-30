@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CollapsiblePanel from "./Components/CollapsiblePanel.js"
+//import CollapsiblePanel from "./Components/CollapsiblePanel.js"
 
 function ToDosComponent(){
 	//const [collapse, setCollapse] = useState(true);
