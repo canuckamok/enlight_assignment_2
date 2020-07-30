@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import ToDo from './ToDo'
 import './App.css';
 //import background from './IMG_3324.JPG'
