@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function ToDosComponent(){
 	//const [collapse, setCollapse] = useState(true);
 	const [currentTodo, setCurrentTodo] = useState("");
-	const storedTodos = JSON.parse(localStorage.getItem("todos"))
+	const storedTodos = JSON.parse(localStorage.getItem("todos")) || [];
 	const [todos, setTodos] = useState(storedTodos);
 		useEffect(
 		() => {
